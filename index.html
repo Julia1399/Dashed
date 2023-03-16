@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <title>Canvas</title>
+</head>
+<body>
+    <h1>Открой для себя чудесный мир пунктирных линий</h1>
+    <div class="container">
+        <div class="canvas-area">
+            <canvas id="draw" width="800" height="800"></canvas>
+        </div>
+        <div class="input-area">
+            <form id="line" action="#" method="get">
+                <p>Задайте координаты начала</p>
+                <label for="1">X1 =</label>
+                <input class="x1" type="number" id="1" placeholder="0" name="count" min="0" autocomplete="off" required>
+                <label for="2">Y1 =</label>
+                <input class="y1" type="number" id="2" placeholder="0" name="count" min="0" autocomplete="off" required>
+                <p>Задайте координаты конца</p>
+                <label for="3">X2 =</label>
+                <input class="x2" type="number" id="3" placeholder="0" name="count" min="0" autocomplete="off" required>
+                <label for="4">Y2 =</label>
+                <input class="y2" type="number" id="4" placeholder="0" name="count" min="0" autocomplete="off"required>
+                <p>Задайте длину штриха и пропуска</p>
+                <label for="5">L1 =</label>
+                <input class="x2" type="number" id="5" placeholder="0" name="count" min="0" autocomplete="off" required>
+                <label for="6">L2 =</label>
+                <input class="y2" type="number" id="6" placeholder="0" name="count" min="0" autocomplete="off"required>
+                <img src="img/pic.png">
+                <button class="btn btn-1" type="submit">Построить</button>
+                <button class="btn btn-2">Очистить</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
